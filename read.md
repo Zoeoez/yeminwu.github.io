@@ -11,11 +11,11 @@ I have already done some data cleaning to the original data.I use Excel's filter
 
 Here is the data downloaded from ProPublica Data Store. Services_provided refers to whether services previously have been provided or not.
 
-![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/屏幕快照%202020-05-04%20上午8.14.53.png)
+![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/data%20.png)
 
 Since the type of most of the data here is categorical, instead of finding relstionships between variables,  I am curious about how the data is distributed. In other word, I am interested in questions such as which state has most deaths? Or does service provided infect the death? Therefore, I  select all categorical variables of data and name it CAPTA_categorical.
 
-![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/屏幕快照%202020-05-04%20上午8.15.00.png)
+![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/cate%20data%20.png)
 
 ### Contextual viz 1
 
@@ -23,15 +23,15 @@ I am not sure about choosing which column to discuss, so I first use ipywidgets 
 
 From the bar chart below, Texas had most children die from maltreatment and abuse recorded from 2011-2015.Then was Florida and Georgia. Moreover, the number of deaths experienced a sharp decline in 2016.And age of 0 accounted for the most. From the plot, males are more than females.However, the difference is slight and normal.
 
-![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/屏幕快照%202020-05-04%20上午7.33.27.png)
-![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/屏幕快照%202020-05-04%20上午8.38.44.png)
+![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/state.png)
+![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/service.png)
 
 
 ### Contextual viz 2
 
 What I am interested in is the service_provided column. Services previously have been provided(Y) were more than serivices not provided before.I use group by to count how many death cases once have been provided services.2170 have been provided services before and 118 have not. Is this happened because there existed a outlier in a certain year？
 
-![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/屏幕快照%202020-05-04%20上午8.38.44.png)
+![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/C2.png)
 
 ### Central viz 
 
@@ -43,7 +43,7 @@ Each bar has two groups: one is service-provided and the other is service-not-pr
 
 This makes me start to think about the reason behind it.My guess is that if the cases have been provided service before, it means the abuse may repeat again and again.The current intervention of facility is not enough to stop the abusement. In order to prevent child abuse, neglect and death, further efforts should be taken by government. 
 
-![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/屏幕快照%202020-05-04%20上午8.38.44.png)
+![image](https://github.com/Zoeoez/yeminwu.github.io/blob/master/CEN%20.png)
 
 
 
